@@ -11,12 +11,24 @@
             $this->lname=$l;
             $this->email=$em;
         }
-        public function getID(){
-            return $this->ID;
+        public function getid(){
+            return $this->id;
         }
         public function Fees(){
-            
+            return $this->Fees;
         }
+        public function getfname(){
+            return $this->fnamed;
+        }
+        public function getlname(){
+            return $this->lname; 
+        }
+        public function getemail(){
+            return $this->email;
+        }
+        function __destruct(){
+        
+    }
 
     }
 ?>
