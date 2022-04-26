@@ -1,5 +1,5 @@
 <?php
-    class Principal{
+    class Principal extends User{
         private $id;
         private $fname;
         private $lname;
@@ -29,6 +29,15 @@
         function __destruct(){
         
     }
+    public function ShowProfile(){
+        $this->getid();
+        $this->getfees();
+        $this->getfname();
+        $this->getlname();
+        $this->getemail();
+        
+    }
+}
 
     }
 ?>
